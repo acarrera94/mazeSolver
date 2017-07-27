@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100A9DB01DC055E600985302 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100A9DA91DC055E600985302 /* main.cpp */; };
+		100A9DB11DC055E600985302 /* MySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100A9DAC1DC055E600985302 /* MySolver.cpp */; };
+		100A9DB21DC055E600985302 /* TestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 100A9DAE1DC055E600985302 /* TestCase.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		100A9D9D1DC055D800985302 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		100A9D9F1DC055D800985302 /* 7 - Maze solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7 - Maze solver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100A9DA91DC055E600985302 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		100A9DAA1DC055E600985302 /* MazeSolverBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeSolverBase.h; sourceTree = "<group>"; };
+		100A9DAB1DC055E600985302 /* MazeSolverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeSolverFactory.h; sourceTree = "<group>"; };
+		100A9DAC1DC055E600985302 /* MySolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MySolver.cpp; sourceTree = "<group>"; };
+		100A9DAD1DC055E600985302 /* MySolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySolver.h; sourceTree = "<group>"; };
+		100A9DAE1DC055E600985302 /* TestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCase.cpp; sourceTree = "<group>"; };
+		100A9DAF1DC055E600985302 /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100A9D9C1DC055D800985302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100A9D961DC055D800985302 = {
+			isa = PBXGroup;
+			children = (
+				100A9DA11DC055D800985302 /* 7 - Maze solver */,
+				100A9DA01DC055D800985302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100A9DA01DC055D800985302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100A9D9F1DC055D800985302 /* 7 - Maze solver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100A9DA11DC055D800985302 /* 7 - Maze solver */ = {
+			isa = PBXGroup;
+			children = (
+				100A9DA91DC055E600985302 /* main.cpp */,
+				100A9DAA1DC055E600985302 /* MazeSolverBase.h */,
+				100A9DAB1DC055E600985302 /* MazeSolverFactory.h */,
+				100A9DAC1DC055E600985302 /* MySolver.cpp */,
+				100A9DAD1DC055E600985302 /* MySolver.h */,
+				100A9DAE1DC055E600985302 /* TestCase.cpp */,
+				100A9DAF1DC055E600985302 /* TestCase.h */,
+			);
+			path = "7 - Maze solver";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100A9D9E1DC055D800985302 /* 7 - Maze solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100A9DA61DC055D800985302 /* Build configuration list for PBXNativeTarget "7 - Maze solver" */;
+			buildPhases = (
+				100A9D9B1DC055D800985302 /* Sources */,
+				100A9D9C1DC055D800985302 /* Frameworks */,
+				100A9D9D1DC055D800985302 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7 - Maze solver";
+			productName = "7 - Maze solver";
+			productReference = 100A9D9F1DC055D800985302 /* 7 - Maze solver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100A9D971DC055D800985302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Carrera;
+				TargetAttributes = {
+					100A9D9E1DC055D800985302 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 100A9D9A1DC055D800985302 /* Build configuration list for PBXProject "7 - Maze solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 100A9D961DC055D800985302;
+			productRefGroup = 100A9DA01DC055D800985302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100A9D9E1DC055D800985302 /* 7 - Maze solver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100A9D9B1DC055D800985302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100A9DB11DC055E600985302 /* MySolver.cpp in Sources */,
+				100A9DB21DC055E600985302 /* TestCase.cpp in Sources */,
+				100A9DB01DC055E600985302 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100A9DA41DC055D800985302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		100A9DA51DC055D800985302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		100A9DA71DC055D800985302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		100A9DA81DC055D800985302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100A9D9A1DC055D800985302 /* Build configuration list for PBXProject "7 - Maze solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100A9DA41DC055D800985302 /* Debug */,
+				100A9DA51DC055D800985302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100A9DA61DC055D800985302 /* Build configuration list for PBXNativeTarget "7 - Maze solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100A9DA71DC055D800985302 /* Debug */,
+				100A9DA81DC055D800985302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100A9D971DC055D800985302 /* Project object */;
+}
